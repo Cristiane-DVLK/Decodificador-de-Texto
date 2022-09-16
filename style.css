@@ -27,6 +27,13 @@ body {
 	position: relative;
 }
 
+@media (min-width: 321px) {
+	body {
+		width: 60vw;
+		height: 90vh;
+	}
+}
+
 header {	
 	  940px;
 	  position: relative;
