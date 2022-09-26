@@ -21,34 +21,25 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-    justify-content: center;
     text-align: center;
-    padding: 8px auto 20px auto;
+    /*padding: 8px auto 20px auto;*/
 	position: relative;
 }
 
 header {	
 	position: relative;
-	padding: 5px 0;
 	text-align: center;	     
     top: 0px;
-    margin: 0px 0px 0px 0px;
+    margin: 40px 0px 30px 0px;
     padding: 2px;
 }
 
 p {
-	font-size: 1.6em;
+	/*font-size: 1.6em;*/
 	color: #3B5998;
 	font-weight: bold;
 	text-align: center;
 	margin-bottom: 10px;
-}
-
-@media (min-width: 321px) {
-	body {
-		width: 80vw;
-		height: 90vh;
-	}
 }
 
 			/*main - retirei {
@@ -74,7 +65,13 @@ p {
 				display: inline-block;
 			}*/
 
-.h2{
+#h1 {
+	font-size: 1.2em;
+	color: #3B5998;
+	font-weight: bold;
+}
+
+.h2 {
 	color: #3B5998;
     font-weight: bold;
     text-align: center;
@@ -87,7 +84,7 @@ p {
 }
 
 .h3{
-	font-size: 170%;
+	/*font-size: 170%;*/
     color: #3B5998;
     font-size: 13px;
     text-align: center;
@@ -102,7 +99,6 @@ p {
 }
 
 .caixaentrada {
-    display: inline-block;
     flex-direction: column;
 	background-color: #e8e8e8;
 	width: 48%;
@@ -118,10 +114,10 @@ p {
    	box-sizing: border-box;
 }
 
-.caixaentrada:hover {
-	transition: 0.7s;
-	transform: scale(1.3);
-}
+	.caixaentrada:hover {
+		transition: 0.7s;
+		transform: scale(1.3);
+	}
 
 .caixacopiar {
 	flex-direction: column;
@@ -146,7 +142,7 @@ p {
 	}
 
 .logo-alura-escuro {
-	width: 10%;
+	width: 15%;
 	margin: 20px 0 25px 25px;
 	display: flex;
 }
@@ -209,9 +205,7 @@ p {
 
 .botaocripto {
 	width: 40%;
-	background: #3c5998;
 	padding : 9px;
-    box-shadow: 0px 0px 3px 0px rgb(11,11,88);
     border: 2px;
     border-radius: 10px;
     color: #FFFFFF;
@@ -268,8 +262,6 @@ p {
 	width: 40%;
 	background: #3c5998;
 	padding : 9px;
-	box-shadow: 0px 0px 3px 0px, rgb(11,11,88);
-	border: 2px;
 	border-radius: 10px;
 	color: #FFFFFF;
 	margin: 7px;
@@ -346,7 +338,7 @@ footer {
 
 .aprovada {
 	font-size: 15px;
-	padding: 1px auto 9px auto;
+	margin: 1px auto 9px auto
 }
 
 .select {
@@ -391,3 +383,82 @@ footer {
 		  transform: scale(1.5);	
 		  color: #007fff;	  		
 	}
+
+
+@media screen and (max-width: 480px) {
+	body {
+		width: 80vw;
+		height: 90vh;
+		margin: auto;
+	}
+
+	header {	
+		padding: 0 0;
+	    margin: 0 0 30px 0;
+	}
+
+	.caixaentrada, .caixacopiar {
+		width: auto;
+		height: auto;
+		margin: auto auto 10px auto;
+	}
+
+	.caixaentrada:hover, .caixacopiar:hover {
+		transition: none;
+		transform: none;
+	}
+
+	.logo-alura-escuro {
+		width: 25%;
+		margin: 5px auto 5px 5px;
+	
+	}
+
+	.botaocripto, .botaoapagar, .botaodescripto, .botaocopiar {
+
+		display: inline-block;
+		margin: 5px auto 5px auto;
+		width: 60%;
+		height: auto;
+	
+	}
+
+	.h2 {
+		margin: 10px auto 0 auto;
+		padding-top: 0;
+	}
+
+	#rodape1  {
+		font-size: 10px;
+	}
+
+	#rodape1:hover, #rodape2:hover {
+	  	transition: none;
+	  	transform: none;
+	}
+
+	#texto-caixaentrada{
+     height: 50px;
+	}
+
+	#areatextocopiar {
+	    height: 50px;
+	}
+
+	footer {
+
+		background: none;
+		font-size: 10px;
+		margin: 0px 0px 5px 0px;
+		padding: 0;
+	    width: auto;
+	    height: auto; 
+	}
+	p {
+		margin-bottom: 0px;
+	}
+    .aprovada {
+		font-size: 10px;
+		padding: auto;
+	}
+}
