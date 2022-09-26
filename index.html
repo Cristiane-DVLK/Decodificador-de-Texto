@@ -5,8 +5,8 @@
 		<meta charset="UTF-8">
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	    <meta name="description" content="Decodificador de textos."/>
-	    	 	<link rel="preconnect" href="https://fonts.googleapis.com">
+    	<meta name="description" content="Decodificador de textos."/>
+	    <link rel="preconnect" href="https://fonts.googleapis.com">
 	    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
 	    <link rel="stylesheet" href="reset.css">
@@ -20,11 +20,10 @@
 
 	<body>
 		<header>		
-				<p>Decodificador de Textos</p>	
+				<h1 id="h1">Decodificador de Textos</h1>	
 		</header>
 
 		<main>
-			
 			<div  class="caixaentrada">				
 				<div class="logoetexto">
 					<a href="https://www.alura.com.br" target="blank"><img id="logo-alura-escuro" src="logo-alura.png" class="logo-alura-escuro"></a>						
@@ -33,10 +32,10 @@
 				<br>
 				<h3 class="h3">Apenas letras minúsculas e sem acento.</h3>
 				<br>
-				            	
+				      	
 				<input type="botaocripto" value="Criptografar" id="botaocripto" class="botaocripto" onclick="criptografar()">
 						
-		         <button id="botaoapagar" type="hidden" class="botaoapagar" onclick="botaoapagar()">Limpar</button>
+		        <button id="botaoapagar" type="hidden" class="botaoapagar" onclick="botaoapagar()">Limpar</button>
 			</div>			
 
 			<div class="caixacopiar">
@@ -48,7 +47,7 @@
 				<img id="imgcomputador" class="imgcomputador" src="criptografia-chave.png">
 				<br>	
 					
-				<input type="botaodescripto" value="Descriptografar" id="botaodescripto" class="botaodescripto" onclick="descriptografar()"><span></span><span></span><span></span><span></span></span>
+				<input type="botaodescripto" value="Descriptografar" id="botaodescripto" class="botaodescripto" onclick="descriptografar()">
 				<button id="botaocopiar" class="botaocopiar" type="hidden" onclick="botaocopiar()">Copiar</button>
 			</div>         
 		</main>
@@ -70,3 +69,4 @@
 		</footer>
 	</body>
 </html>
+
