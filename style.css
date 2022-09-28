@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&family=Ubuntu:ital,wght@0,300;0,400;1,500&display=swap');
 
 html {
-   	margin: 0px 0px 0px 0px;
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
+   		/*margin: 0px 0px 0px 0px;*/
+    	width: 100%;
+    	height: 100%;
+    	background-repeat: no-repeat;
 	font-family: 'Quicksand', sans-serif;
 	display: block;
 }
 
 body {
 	font-family: 'Quicksand';
-	margin: 0 auto;
-    width: 100%;
-    height: auto;
+		/*margin: 0 auto;*/
+   	width: 100%;
+    	height: auto;
 	background: linear-gradient(#FEFEFE, #034e8a, #012745);
 	background-size: cover;
 	display: flex;	
@@ -21,30 +21,22 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-    text-align: center;
-    /*padding: 8px auto 20px auto;*/
+    	text-align: center;
+    		/*padding: 8px auto 20px auto;*/
 	position: relative;
 }
 
 header {	
 	position: relative;
 	text-align: center;	     
-    top: 0px;
-    margin: 40px 0px 30px 0px;
-    padding: 2px;
-}
+   	top: 0px;
+    	margin: 50px 0px 50px 0px;
+    	padding: 2px;
 
-p {
-	/*font-size: 1.6em;*/
-	color: #3B5998;
-	font-weight: bold;
-	text-align: center;
-	margin-bottom: 10px;
 }
 
 			/*main - retirei {
 				padding : 20px;
-				border: 10px solid #e8e8e8;
 				margin: 20px;
 				margin: 20px 20px 20px 20px;
 				width: 70%;
@@ -53,12 +45,12 @@ p {
 				display: inline-block;	
 				background-position: center;
 				justify-content: center;	
-			    border-radius: 20px 20px 20px 20px;
-			    box-shadow: rgba(0, 0, 0, 0.677) 5px 5px 10px;
-			    flex-direction: column;    
-			    text-align: center;
-			    position: relative;  
-			    background-position: center;
+			    	border-radius: 20px 20px 20px 20px;
+			    	box-shadow: 5px 5px 10px darkblue;
+			    	flex-direction: column;    
+			    	text-align: center;
+			    	position: relative;  
+			    	background-position: center;
 			}*/
 
 			/*#logoetexto {
@@ -66,49 +58,65 @@ p {
 			}*/
 
 #h1 {
+	text-transform: uppercase;
 	font-size: 1.2em;
 	color: #3B5998;
 	font-weight: bold;
+	text-shadow: 0 0 5px #42A5F5, 0 0 15px #42A5F5, 0 0 30px #42A5F5;
+}
+
+#h1:hover {
+	transform: scale(1.3);
+	text-shadow: none;
 }
 
 .h2 {
 	color: #3B5998;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 20px;
-    margin: 0 auto;
+    	font-weight: bold;
+    	text-align: center;
+    	padding-top: 20px;
+    	margin: 0 auto;
 }
 
-.h2:hover {			
-	transform: scale(1.3);
-}
+	.h2:hover {			
+		transform: scale(1.3);
+	}
 
-.h3{
-	/*font-size: 170%;*/
-    color: #3B5998;
-    font-size: 13px;
-    text-align: center;
-    margin: 0 auto;
+.h3 {
+		/*font-size: 170%;*/
+	color: #3B5998;
+	font-size: 13px;
+	text-align: center;
+	margin: 0 auto;
 }
 	.h3:hover {			
 		transform: scale(1.3);
 	}
 	
 .h4 {
-		font-size: 14px;
+	font-size: 14px;
 }
 
+p {
+		/*font-size: 1.6em;*/
+	color: #3B5998;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+
 .caixaentrada {
-    flex-direction: column;
+    	flex-direction: column;
 	background-color: #e8e8e8;
 	width: 48%;
-    float: left;
-    display: inline;
-    position: relative;
-    margin-right: 1%;
-    outline:none; 
-    text-align: center;
-    border-radius: 25px 25px 25px 25px;
+    	float: left;
+    	display: inline;
+   	 position: relative;
+    	margin-right: 1%;
+    	outline:none; 
+    	text-align: center;
+    	border-radius: 25px 25px 25px 25px;
   	box-shadow: rgba(0, 0, 0, 0.577) 5px 5px 10px;
    	vertical-align: bottom;
    	box-sizing: border-box;
@@ -122,17 +130,17 @@ p {
 .caixacopiar {
 	flex-direction: column;
 	background-color: #e8e8e8;
-    width: 47%;
-    float: right;
-    display: inline;
-    position: relative;
-    margin-left: 1%;
-    outline:none;
-    border-radius: 25px 25px 25px 25px;
-    box-shadow: rgba(0, 0, 0, 0.577) 5px 5px 10px;
-    vertical-align: bottom;	  
-    box-sizing: border-box;
-    text-align: center;
+    	width: 47%;
+    	float: right;
+    	display: inline;
+    	position: relative;
+    	margin-left: 1%;
+    	outline:none;
+    	border-radius: 25px 25px 25px 25px;
+    	box-shadow: rgba(0, 0, 0, 0.577) 5px 5px 10px;
+    	vertical-align: bottom;	  
+    	box-sizing: border-box;
+    	text-align: center;
 }  
 
 	.caixacopiar:hover {
@@ -167,56 +175,64 @@ p {
 }
        
         textarea:placeholder {
-             color: lightgrey;
+             	color: lightgrey;
         }  
 
+        #texto-caixaentrada:hover {
+		transition: 0.7s;
+		transform: scale(1.1);
+        }
+
 #texto-caixaentrada:hover {
-    background-color:#f0efef;
-    transition: 0.7s;
-    border-color: #f0efef;
-    border-radius: 10px;
+	background-color:#f0efef;
+	transition: 0.7s;
+	border-color: #f0efef;
+	border-radius: 10px;
 }
 
 #areatextocopiar {
-    width: 80%;
-    font-family: 'Quicksand', sans-serif;
-    color: #012765;
-    background-color:#f9f9f9;
-    border: 2px;
-    border-color: #f8f8f8;
-    border-radius: 10px;
-    font-size: 15px;
-    margin: 2px;
-    outline:none;
-    padding: 4px;  
+	width: 80%;
+	font-family: 'Quicksand', sans-serif;
+	color: #012765;
+	background-color:#f9f9f9;
+	border: 2px;
+	border-color: #f8f8f8;
+	border-radius: 10px;
+	font-size: 15px;
+	margin: 2px;
+	outline:none;
+	padding: 4px;  
 }
 
-    #areatextocopiar :hover {
-       background-color:#f0efef;
-       transition: 0.7s;
-       border-color: #f0efef;
-       border-radius: 10px;
-}
+    #areatextocopiar:hover {
+	      	background-color:#f0efef;
+	       	transition: 0.7s;
+	       	border-color: #f0efef;
+	       	border-radius: 10px;
+	       	transition: 0.7s;
+		transform: scale(1.1);
+    }
        
     textarea::placeholder {
-       color: #3B5998;
-    } 
+       		color: #3B5998;
+    }
+
 /* BOTÃO CRIPTO OK*/
 
 .botaocripto {
 	width: 40%;
 	padding : 9px;
-    border: 2px;
-    border-radius: 10px;
-    color: #FFFFFF;
-    margin: 7px;
-    font-size: 17px;
-    display: inline-block;
-    text-align: center;
-    cursor: pointer; 
+    	border: 2px;
+    	border-radius: 10px;
+    	color: #FFFFFF;
+    	margin: 7px;
+    	font-size: 17px;
+    	display: inline-block;
+	text-align: center;
+    	cursor: pointer; 
 	background: #730bec url(pixel.gif);
-    animation: animate1 0.8s steps(8) forwards;   
-    box-shadow: 0 0 10px #42A5F5, 0 0 15px #42A5F5, 0 0 30px #42A5F5;           
+    	animation: animate1 0.8s steps(8) forwards;   
+    	box-shadow: 0 0 10px #42A5F5, 0 0 15px #42A5F5, 0 0 30px #42A5F5;           
 }
 
 	.botaocripto:hover {
@@ -243,12 +259,12 @@ p {
 	background: #9a9a9a;
 	padding : 9px;
 	box-shadow: 0px 0px 3px 0px rgb(0,0,99);
-    border: 2px;
-    border-radius: 10px;
-    color: #FFFFFF;
-    margin: 7px;
-    font-size: 17px;    
-    cursor: pointer; 
+    	border: 2px;
+    	border-radius: 10px;
+    	color: #FFFFFF;
+    	margin: 7px;
+    	font-size: 17px;    
+    	cursor: pointer; 
 }
 
 	.botaoapagar:hover {
@@ -276,11 +292,11 @@ p {
 }
 		
 	.botaodescripto:hover{  
-	  background: #64C7F7;
-	  font-color: #FFFFFF;
-	  box-shadow: 0 0 10px #42A5F5, 0 0 15px #42A5F5, 0 0 30px #42A5F5; 
-	  transition: 1s;
-	  transform: scale(1.2);
+		  background: #64C7F7;
+		  font-color: #FFFFFF;
+		  box-shadow: 0 0 10px #42A5F5, 0 0 15px #42A5F5, 0 0 30px #42A5F5; 
+		  transition: 1s;
+		  transform: scale(1.2);
 	}
 
 .botaocopiar {
@@ -288,11 +304,11 @@ p {
 	background: #3c5998;	
 	padding : 9px;	
 	border: 2px;    
-    border-radius: 10px;
-    color: #FFFFFF;    
-    margin: 7px;    
-    font-size: 17px;      
-    cursor: pointer;         
+    	border-radius: 10px;
+    	color: #FFFFFF;    
+    	margin: 7px;    
+    	font-size: 17px;      
+    	cursor: pointer;         
 }
 
 	.botaocopiar:hover {		
@@ -316,9 +332,9 @@ p {
 
 
 #imgcomputador {
-    width: 22%;
-    height: auto;
-    text-align: center;
+	width: 22%;
+	height: auto;
+	text-align: center;
  }
 
 footer {
@@ -328,12 +344,11 @@ footer {
 	font-size: 12px;
 	text-align: center;
 	position: fixed;
-	margin: 0px 0px 0px 0px;
 	padding: 5px 1px 5px 1px;
-    width: 100%;
-    height: auto;
-    bottom: 0;
-    left: 0;     
+    	width: 100%;
+    	height: auto;
+    	bottom: 0;
+    	left: 0;     
  }
 
 .aprovada {
@@ -348,17 +363,27 @@ footer {
 
 .contato {
 	text-align: center;
+	top: 0;
 }
 
-.linkedin{
-    width: 37px;
-    height: 37px;
+#linkedin{
+    	width: 37px;
+    	height: 37px;
+    	bottom: 0;
 }
+	#linkedin:hover {
+   		transition: 0.5s;
+		transform: scale(1.2);
+	}
 
-.github {
-    width: 37px;
-    height: 37px;
+#github {
+    	width: 30px;
+    	height: 30px;
 }
+	#github:hover {
+   		transition: 0.5s;
+		transform: scale(1.2);
+	}
 
 #rodape1 {
 	font-size: 11px;
@@ -394,7 +419,7 @@ footer {
 
 	header {	
 		padding: 0 0;
-	    margin: 0 0 30px 0;
+	    	margin: 0 0 30px 0;
 	}
 
 	.caixaentrada, .caixacopiar {
@@ -411,17 +436,22 @@ footer {
 	.logo-alura-escuro {
 		width: 25%;
 		margin: 5px auto 5px 5px;
-	
 	}
 
 	.botaocripto, .botaoapagar, .botaodescripto, .botaocopiar {
-
 		display: inline-block;
 		margin: 5px auto 5px auto;
 		width: 60%;
-		height: auto;
-	
+		height: auto;	
 	}
+
+	#h1 {
+		font-size: 18px;
+	}
+		#h1:hover {
+			transition: none;
+			transform: none;
+		}
 
 	.h2 {
 		margin: 10px auto 0 auto;
@@ -432,32 +462,38 @@ footer {
 		font-size: 10px;
 	}
 
-	#rodape1:hover, #rodape2:hover {
-	  	transition: none;
-	  	transform: none;
-	}
+		#linkedin:hover, #github:hover {
+			transition: none;
+			transform: none;
+		}
+
+		#rodape1:hover, #rodape2:hover {
+			transition: none;
+			transform: none;
+		}
 
 	#texto-caixaentrada{
-     height: 50px;
+     		height: 50px;
 	}
 
 	#areatextocopiar {
-	    height: 50px;
+	    	height: 50px;
 	}
 
 	footer {
-
 		background: none;
 		font-size: 10px;
 		margin: 0px 0px 5px 0px;
 		padding: 0;
-	    width: auto;
-	    height: auto; 
+	    	width: auto;
+	    	height: auto; 
 	}
+	
 	p {
 		margin-bottom: 0px;
 	}
-    .aprovada {
+	
+    	.aprovada {
 		font-size: 10px;
 		padding: auto;
 	}
